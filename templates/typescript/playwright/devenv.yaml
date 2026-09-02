@@ -1,0 +1,8 @@
+inputs:
+  b.ignited-dev-environments:
+    url: github:MerlijnVanherck/b.ignited-dev-environments?dir=modules/typescript/playwright
+    flake: false
+
+imports:
+  - ./../../../modules/base
+  - b.ignited-dev-environments
